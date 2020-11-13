@@ -1,0 +1,11 @@
+[Unit]
+Description=Keybow Daemon
+After=usb-gadget.service
+
+[Service]
+ExecStart=/start.sh
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target

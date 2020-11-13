@@ -1,0 +1,2 @@
+deb [arch=armhf] http://mirrordirector.raspbian.org/raspbian buster main
+deb-src http://mirrordirector.raspbian.org/raspbian buster main
